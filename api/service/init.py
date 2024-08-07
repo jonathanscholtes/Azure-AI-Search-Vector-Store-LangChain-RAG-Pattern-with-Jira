@@ -18,7 +18,7 @@ def LLM_init():
     llm = AzureChatOpenAI(
     azure_deployment="chat",
     api_version="2024-05-01-preview",
-    temperature=0,
+    temperature=.25,
     max_tokens=None,
     timeout=None,
     max_retries=2,

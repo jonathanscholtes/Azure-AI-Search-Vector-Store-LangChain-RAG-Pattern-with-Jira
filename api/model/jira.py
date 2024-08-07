@@ -5,7 +5,7 @@ from model.resource import Resource
 
 class project(BaseModel):
     key: str = Field(default="TL")
-    name:str
+    name:str = Field(default="None")
 
 class JiraIssue(BaseModel):
     project: project
@@ -16,3 +16,5 @@ class JiraIssue(BaseModel):
 class JiraResults(BaseModel):
     JiraIssue: JiraIssue
     ResourceCollection: list[Resource]
+
+

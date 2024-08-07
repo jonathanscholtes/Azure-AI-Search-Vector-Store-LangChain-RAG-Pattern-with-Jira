@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from web import search
+from web import search, jira
 
 app = FastAPI()
 
@@ -18,7 +18,7 @@ app.add_middleware(
 
 
 app.include_router(search.router)
-
+app.include_router(jira.router)
 
 
 @app.get("/")

@@ -39,14 +39,17 @@ export default function Search() {
               sx={{ paddingLeft: 2, paddingTop: 1, paddingBottom: 1 }}
               spacing={1}
             >
-              <FindInPageTwoToneIcon sx={{ fontSize: 35 }} />
+              <img
+                src={require('./../images/ai_search_small.png')}
+                height={'35px'}
+              />
               <Typography variant="h5" component="h5">
                 Requirements Search
               </Typography>
             </Stack>
           </div>
 
-          <Stack direction="column" spacing={2} sx={{ p: 2 }}>
+          <Stack direction="column" spacing={1} sx={{ p: 2 }}>
             <Typography variant="caption">
               Use this search box to find relevant requirement documents through
               Azure AI Search - vector search. The retrieved documents will be
@@ -57,24 +60,15 @@ export default function Search() {
             <Stack
               direction="row"
               sx={{ paddingLeft:1, textAlign: 'left', verticalAlign: 'middle' }}
-            >
-              <img
-                src={require('./../images/azure_ai_search.png')}
-                width={'50px'}
-              />
-              <Typography variant="caption" sx={{paddingTop:2,paddingLeft:1}}>
-                Azure AI Search Vector Search is a feature that leverages AI to
-                perform semantic searches, enabling more accurate and relevant
-                retrieval of information by understanding the context and
-                meaning of queries and documents.
-              </Typography>
+            >             
+              
             </Stack>
             <Stack direction="row" spacing={0}>
               <TextField
                 sx={{ width: '80%' }}
                 variant="outlined"
                 label="Search"
-                helperText="Create a Jira Issue (Task) from requirement document search"
+                helperText="Create a Jira Issue from requirement document search. Search using phrases such as 'Route Optimization', 'Time Delays', etc."
                 defaultValue="Route Optimization"
                 value={search}
                 onChange={(event) => setSearch(event.target.value)}
@@ -137,9 +131,12 @@ export default function Search() {
               sx={{ paddingLeft: 2, paddingTop: 1, paddingBottom: 1 }}
               spacing={1}
             >
-              <AssignmentTurnedInTwoToneIcon sx={{ fontSize: 35 }} />
+              <img
+                src={require('./../images/jira_logo_small.png')}
+                height={'35px'}
+              />
               <Typography variant="h5" component="h5">
-                Create Jira Issue (Task)
+                Create Jira Issue (Tasks)
               </Typography>
             </Stack>
                   </div>

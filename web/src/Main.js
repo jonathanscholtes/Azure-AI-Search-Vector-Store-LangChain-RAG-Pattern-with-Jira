@@ -13,7 +13,10 @@ class App extends Component {
     return (
       <div className="Main">
         <div className="Main-Header">
-          header
+          <img
+                src={require('./images/site_logo.png')}
+                height={'100px'}
+              />
         </div>
         <div className="Main-Body">
           <div className="Main-Content">

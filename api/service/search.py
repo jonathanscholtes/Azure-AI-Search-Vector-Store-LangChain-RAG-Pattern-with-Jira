@@ -2,10 +2,7 @@ from .init import llm
 from data.AISearch import search as AISearch
 from data.Jira import manage as JiraManage
 from dotenv import load_dotenv
-from model.airesults import AIResults
 from model.jira import JiraResults, JiraIssue
-from langchain_core.output_parsers import StrOutputParser
-from langchain_core.runnables import RunnablePassthrough
 from langchain.prompts import PromptTemplate
 from langchain_core.output_parsers import JsonOutputParser
 
@@ -39,8 +36,8 @@ def support_issue_from_query(query:str) -> JiraResults:
     partial_variables={"format_instructions": parser.get_format_instructions()},)
 
     rag_chain = custom_rag_prompt | llm | parser
-
-    #print(custom_rag_prompt)
+    print(query)
+    print(custom_rag_prompt)
 
     #rag_chain = (
     #{"context": lambda x: content }
@@ -48,7 +45,9 @@ def support_issue_from_query(query:str) -> JiraResults:
     #| llm
     #| StrOutputParser()
     #)
-    issue: JiraIssue =rag_chain.invoke({"query":query, "context":content})
+    issue: JiraIssue 
+    issue =rag_chain.invoke({"query":query, "context":content})
+    
 
     if issue != None:
         JiraManage.project_name_lookup(issue)

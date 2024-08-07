@@ -3,15 +3,17 @@
   font-size: calc(4px + 2vmin);
   background-color: gainsboro;
   display: grid;
-  grid-template-rows: 10% auto 8%;
+   row-gap: 10px;
+  grid-template-rows: 115px auto 8%;
   grid-template-columns: auto;
 }
 
 .Main-Header {
   grid-row: 1;
   grid-column: 1;
-  padding-top: 5px;
-  text-align: center;
+  padding-top: 10px;
+  padding-left: 20px;
+  text-align: left;
   width: 100%;
 }
 
@@ -37,6 +39,7 @@
   grid-row: 3;
   grid-column: 1;
   padding: 10px;
+  padding-left: 20px;
   display: inline-block;
   font-style: italic;
   font-size: 9pt;
