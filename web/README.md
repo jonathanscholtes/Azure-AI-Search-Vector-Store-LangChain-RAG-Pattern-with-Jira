@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# Azure AI Jira Issue Manager - React.JS Web Interface
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Overview
+Welcome to the Azure AI Jira Issue Manager web! This project features a user-friendly web interface built with React.JS, making it easy to manage Jira issues efficiently. By integrating advanced AI search capabilities with Azure AI Search and Azure OpenAI Service, the AI Jira Issue Manager allows for seamless retrieval and utilization of requirement documents, ensuring tasks are accurately populated with relevant details. The front-end, crafted with React.JS, ensures an intuitive and smooth user experience, while the Python FastAPI back-end provides robust and high-performance API management. 
 
-In the project directory, you can run:
+## Features
+- Utilizes React for building a modern and interactive user interface.
+- Integrates Node.js for server-side logic and connecting to the FastAPI backend.
+- Implements the LangChain with Azure OpenAI Server to generate Jira Issues.
+- Display documents retrieved through Azure AI Search's similarity search.
 
-### `npm start`
+## Requirements
+- Node.js 20.11.1 installed in your development environment.
+    - Please follow the steps outlined [here](https://stochasticcoder.com/2024/03/06/langchain-rag-with-react-fastapi-cosmos-db-vectors-part-3/#h-install-node-js) to download and install Node.JS.
+- Access to a FastAPI backend for AI Agent.
+- Basic knowledge of React, Node.js, FastAPI, and LangChain concepts.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Usage
+1. Clone the repository to your local machine.
+2. Set up and configure the FastAPI backend for LangChain AI Agent.
+3. Create **.env** file and populate:
+- REACT_APP_API_HOST=http://127.0.0.1:8000
+4. Perform a clean install of package dependancies:
+```
+npm ci
+```
+4. Start the Node.js server and run the React 18 application to interact with the AI Agent.
+```
+npm start
+```
+![AI Jira Issue Manager](../images/screenshot1.PNG)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## License
+This project is licensed under the [MIT License](../MIT.md), granting permission for commercial and non-commercial use with proper attribution.
 
-### `npm test`
+## Support
+For any questions or issues, please [open an issue](https://github.com/jonathanscholtes/LangChain-RAG-Pattern-with-AI-Search-Vector-Store-and-Jira/issues) on GitHub or reach out to the project maintainers.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Disclaimer
+This project is provided for educational and demonstration purposes only. Use at your own risk.
