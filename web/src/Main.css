@@ -1,0 +1,47 @@
+.Main {
+  min-height: 100vh;
+  font-size: calc(4px + 2vmin);
+  background-color: gainsboro;
+  display: grid;
+  grid-template-rows: 10% auto 8%;
+  grid-template-columns: auto;
+}
+
+.Main-Header {
+  grid-row: 1;
+  grid-column: 1;
+  padding-top: 5px;
+  text-align: center;
+  width: 100%;
+}
+
+.Main-Body {   
+  grid-row: 2;
+  grid-column: 1;
+  width: 100%;
+}
+
+.Main-Content {
+  width: 95%;
+  height: 90%;  
+  background-color: whitesmoke;
+  padding: 10px;
+  margin: auto;
+  border-color: dimgray;
+  border-radius: 10px;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.Main-Footer {
+  grid-row: 3;
+  grid-column: 1;
+  padding: 10px;
+  display: inline-block;
+  font-style: italic;
+  font-size: 9pt;
+  text-align: left;
+  vertical-align:bottom;
+  background-color: darkslategray;
+ color: whitesmoke;
+}

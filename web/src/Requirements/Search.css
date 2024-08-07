@@ -1,0 +1,53 @@
+.Search-Main {
+  
+  
+  display: grid;
+  grid-template-rows: max-content max-content;
+  grid-template-columns: 350px auto;
+  row-gap: 20px;
+  column-gap: 20px;
+  padding: 10px;
+}
+
+.Search-Bar {
+  grid-row: 1;
+  grid-column: 1 / span 2;
+  padding-top: 0;
+  vertical-align: top;
+  border-color: dimgray;
+  border-radius: 10px;
+  border-width: 2px;
+  border-style: solid;
+  background-color: white;
+}
+
+.Search-Documents {
+  grid-row: 2;
+  grid-column: 1 / span 1;
+  border-color: dimgray;
+  border-radius: 10px;
+  border-width: 2px;
+  border-style: solid;
+  align-items: stretch;
+  background-color: white;
+}
+
+.Search-Jira {
+  grid-row: 2;
+  grid-column: 2 / span 1;
+  border-color: dimgray;
+  border-radius: 10px;
+  border-width: 2px;
+  border-style: solid;
+  background-color: white;
+}
+
+.Search-Heading {
+  display: flex;
+  background-color: lightsteelblue;
+  vertical-align: middle;
+  color: #0079d6;
+  border-bottom: 1px solid dimgray;
+  overflow: hidden;
+ 
+}
