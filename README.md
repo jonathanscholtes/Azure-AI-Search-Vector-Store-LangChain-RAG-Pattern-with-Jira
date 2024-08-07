@@ -33,7 +33,7 @@ Welcome to the Azure AI Jira Issue Manager repository! This project leverages th
 ## Steps
 1. Step 1 - Load documents and create vector embeddings with Azure AI Search: [Effortlessly Vectorize Your Data with Azure AI Search: Step-by-Step Tutorial](https://stochasticcoder.com/2024/07/26/effortlessly-vectorize-your-data-with-azure-ai-search-step-by-step-tutorial/)
 2. [Step 2](api) - Create FastAPI to integrate Jira and LangChain RAG pattern with web front-end.
-3. [Step 3](web) - Build the React web front-end to ask 'grounded' questions of your data and view relevant documents. 
+3. [Step 3](web) - Build the React web front-end to query requirement documents and generate Jira Issues. 
 4. Follow the setup instructions provided in the README file.
 5. Run the demo application and explore the RAG pattern in action.
 

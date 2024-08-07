@@ -28,7 +28,6 @@ def support_issue_from_query(query:str) -> JiraResults:
     content = format_docs(docs)
 
     parser = JsonOutputParser(pydantic_object=JiraIssue)
-    #custom_rag_prompt = PromptTemplate.from_template(template)
 
     custom_rag_prompt = PromptTemplate(
     template=template,
@@ -39,12 +38,7 @@ def support_issue_from_query(query:str) -> JiraResults:
     print(query)
     print(custom_rag_prompt)
 
-    #rag_chain = (
-    #{"context": lambda x: content }
-    #| custom_rag_prompt
-    #| llm
-    #| StrOutputParser()
-    #)
+
     issue: JiraIssue 
     issue =rag_chain.invoke({"query":query, "context":content})
     

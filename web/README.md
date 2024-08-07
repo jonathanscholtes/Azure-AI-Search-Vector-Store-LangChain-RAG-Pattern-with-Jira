@@ -31,6 +31,8 @@ npm start
 ```
 ![AI Jira Issue Manager](../images/screenshot1.PNG)
 
+![AI Jira Issue Manager](../images/jira_issue.PNG)
+
 ## License
 This project is licensed under the [MIT License](../MIT.md), granting permission for commercial and non-commercial use with proper attribution.
 
