@@ -47,7 +47,7 @@ This project is licensed under the [MIT License](MIT.md), granting permission fo
 
 
 ## Support
-For any questions or issues, please [open an issue](https://github.com/jonathanscholtes/LangChain-RAG-Pattern-with-AI-Search-Vector-Store-and-Jira/issues) on GitHub or reach out to the project maintainers.
+For any questions or issues, please [open an issue](https://github.com/jonathanscholtes/Azure-AI-Search-Vector-Store-LangChain-RAG-Pattern-with-Jira/issues) on GitHub or reach out to the project maintainers.
 
 ## Disclaimer
 This demo application is provided for educational and demonstration purposes only. Use at your own risk.
