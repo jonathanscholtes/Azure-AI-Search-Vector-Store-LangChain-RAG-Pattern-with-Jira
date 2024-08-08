@@ -16,7 +16,7 @@ def LLM_init():
   
     
     llm = AzureChatOpenAI(
-    azure_deployment="chat",
+    azure_deployment="chat", ## azure_deployment: name of chat model deployed in Azure OpenAI Studio
     api_version="2024-05-01-preview",
     temperature=.25,
     max_tokens=None,
