@@ -19,12 +19,11 @@ def data_init():
         azure_endpoint=environ.get("AZURE_OPENAI_ENDPOINT"),
         api_key=environ.get("AZURE_OPENAI_API_KEY"),)
     
-    index_name: str = "vector-1721933128984"
     
     vector_store = AzureSearch(
         azure_search_endpoint=environ.get("AZURE_SEARCH_ENDPOINT"),
         azure_search_key=environ.get("AZURE_SEARCH_API_KEY"),
-        index_name=index_name,
+        index_name=environ.get("AZURE_SEARCH_INDEX_NAME"),
         embedding_function=embeddings.embed_query,
     )
 

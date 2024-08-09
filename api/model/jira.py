@@ -1,10 +1,14 @@
 from pydantic import BaseModel, Field
 from typing import List, Optional, Union
 from model.resource import Resource 
+from dotenv import load_dotenv
+from os import environ
 
+
+load_dotenv(override=False)
 
 class project(BaseModel):
-    key: str = Field(default="TL")
+    key: str = Field(default=environ.get("JIRA_PROJECT_KEY"))
     name:str = Field(default="None")
 
 class JiraIssue(BaseModel):

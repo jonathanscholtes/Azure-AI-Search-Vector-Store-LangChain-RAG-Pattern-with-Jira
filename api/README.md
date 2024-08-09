@@ -26,6 +26,7 @@ Welcome to the Azure AI Jira Issue Manager api! This project leverages the power
 - **AZURE_OPENAI_API_VERSION**='2023-05-15'
 - **AZURE_SEARCH_ENDPOINT**='\<Your Azure AI Search Endpoint \>'
 - **AZURE_SEARCH_API_KEY**='\<Your Azure AI Search API Key \>'
+- **AZURE_SEARCH_INDEX_NAME**='\<Your Azure Search Vector Field Index\>'
 - **AZURESEARCH_FIELDS_CONTENT_VECTOR**='text_vector'
 - **AZURESEARCH_FIELDS_CONTENT**='chunk'
 - **JIRA_PROJECT_KEY**='\<Your Jira Project Key\>'
