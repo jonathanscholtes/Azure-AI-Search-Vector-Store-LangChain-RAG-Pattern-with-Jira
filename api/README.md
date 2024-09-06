@@ -1,8 +1,8 @@
-# Azure AI Jira Issue Manager - Python FastAPI
+# Creating Intelligent Systems for Jira with Azure OpenAI and AI Search - Python FastAPI
 
 
 ## Overview
-Welcome to the Azure AI Jira Issue Manager api! This project leverages the power of Python FastAPI to create a robust and high-performance backend system for managing Jira issues. By integrating advanced AI search capabilities with Azure AI Search and Azure OpenAI Service, the AI Jira Issue Manager enables seamless retrieval and utilization of requirement documents, ensuring tasks are accurately populated with relevant details. While the front-end is built with React.JS for a user-friendly interface, Python FastAPI handles all user requests and interactions, providing a reliable and efficient API management. This combination of cutting-edge technologies streamlines project planning and issue management, making it an invaluable tool for any development team.
+This project leverages the power of Python FastAPI to create a robust and high-performance backend system for managing Jira issues. By integrating advanced AI search capabilities with Azure AI Search and Azure OpenAI Service, the AI Jira Issue Manager enables seamless retrieval and utilization of requirement documents, ensuring tasks are accurately populated with relevant details. While the front-end is built with React.JS for a user-friendly interface, Python FastAPI handles all user requests and interactions, providing a reliable and efficient API management. This combination of cutting-edge technologies streamlines project planning and issue management, making it an invaluable tool for any development team.
 
 ## Features
 - Utilizes Python FastAPI for building a high-performance web API.

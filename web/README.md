@@ -1,8 +1,8 @@
-# Azure AI Jira Issue Manager - React.JS Web Interface
+# Creating Intelligent Systems for Jira with Azure OpenAI and AI Search - React.JS Web Interface
 
 
 ## Overview
-Welcome to the Azure AI Jira Issue Manager web! This project features a user-friendly web interface built with React.JS, making it easy to manage Jira issues efficiently. By integrating advanced AI search capabilities with Azure AI Search and Azure OpenAI Service, the AI Jira Issue Manager allows for seamless retrieval and utilization of requirement documents, ensuring tasks are accurately populated with relevant details. The front-end, crafted with React.JS, ensures an intuitive and smooth user experience, while the Python FastAPI back-end provides robust and high-performance API management. 
+This project features a user-friendly web interface built with React.JS, making it easy to manage Jira issues efficiently. By integrating advanced AI search capabilities with Azure AI Search and Azure OpenAI Service, the AI Jira Issue Manager allows for seamless retrieval and utilization of requirement documents, ensuring tasks are accurately populated with relevant details. The front-end, crafted with React.JS, ensures an intuitive and smooth user experience, while the Python FastAPI back-end provides robust and high-performance API management. 
 
 ## Features
 - Utilizes React for building a modern and interactive user interface.

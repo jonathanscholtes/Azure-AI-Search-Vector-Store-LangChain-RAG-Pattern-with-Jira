@@ -1,7 +1,7 @@
-# Azure AI Jira Issue Manager
+# Creating Intelligent Systems for Jira with Azure OpenAI and AI Search
 
 ## Overview
-Welcome to the Azure AI Jira Issue Manager repository! This project leverages the power of Azure AI Search, Azure OpenAI Service, LangChain, React.JS, and Python FastAPI to create an intelligent and efficient system for managing Jira issues. By integrating advanced AI search capabilities, the AI Jira Issue Manager allows for seamless retrieval and utilization of requirement documents, ensuring that tasks are accurately populated with relevant details. The front-end is built with React.JS, providing a user-friendly interface, while the back-end utilizes Python FastAPI for robust and high-performance API management. This combination of cutting-edge technologies streamlines project planning and issue management, making it an invaluable tool for any development team.
+This project leverages the power of Azure AI Search, Azure OpenAI Service, LangChain, React.JS, and Python FastAPI to create an intelligent and efficient system for managing Jira issues. By integrating advanced AI search capabilities, the AI Jira Issue Manager allows for seamless retrieval and utilization of requirement documents, ensuring that tasks are accurately populated with relevant details. The front-end is built with React.JS, providing a user-friendly interface, while the back-end utilizes Python FastAPI for robust and high-performance API management. This combination of cutting-edge technologies streamlines project planning and issue management, making it an invaluable tool for any development team.
 
 <br/>
 
